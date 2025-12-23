@@ -4,3 +4,5 @@ with open("pythonpractice", "r") as file:
     print(file.read(16))
     print(file.read(5))
     print(file.read(9))
+    print("first line: " + file.readline())
+
